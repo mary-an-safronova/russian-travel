@@ -1,0 +1,9 @@
+.route__route-line {
+    background-image: url("../../../images/Route-line/route-line.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}

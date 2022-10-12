@@ -1,0 +1,11 @@
+.route__yaroslavl-title {
+    background-image: url("../../../images/Route-line/Yaroslavl-title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 26.8%;
+    top: 74%;
+    height: 3.9%;
+    width: 8.3%;
+    z-index: 1;
+}

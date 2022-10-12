@@ -1,0 +1,12 @@
+.route__perm-point {
+    background-image: url("../../../images/Route-line/Perm-point.svg"),
+        url("../../../images/Route-line/Perm-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 59%;
+    top: 50%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

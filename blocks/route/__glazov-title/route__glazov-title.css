@@ -1,0 +1,11 @@
+.route__glazov-title {
+    background-image: url("../../../images/Route-line/Glazov-title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 57%;
+    top: 76.7%;
+    height: 3.9%;
+    width: 5.3%;
+    z-index: 1;
+}

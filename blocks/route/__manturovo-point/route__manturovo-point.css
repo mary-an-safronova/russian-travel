@@ -1,0 +1,12 @@
+.route__manturovo-point {
+    background-image: url("../../../images/Route-line/Manturovo-point.svg"),
+        url("../../../images/Route-line/Manturovo-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 35%;
+    top: 47%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

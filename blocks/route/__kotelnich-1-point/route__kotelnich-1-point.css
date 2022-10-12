@@ -1,0 +1,12 @@
+.route__kotelnich-1-point {
+    background-image: url("../../../images/Route-line/Kotelnich-1-point.svg"),
+        url("../../../images/Route-line/Kotelnich-1-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 43.8%;
+    top: 64.6%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

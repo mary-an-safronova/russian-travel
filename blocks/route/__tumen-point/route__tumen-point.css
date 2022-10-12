@@ -1,0 +1,12 @@
+.route__tumen-point {
+    background-image: url("../../../images/Route-line/Tumen-point.svg"),
+        url("../../../images/Route-line/Tumen-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 65.4%;
+    top: 70.5%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

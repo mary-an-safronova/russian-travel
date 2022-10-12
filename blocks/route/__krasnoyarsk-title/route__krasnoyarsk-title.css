@@ -1,0 +1,11 @@
+.route__krasnoyarsk-title {
+    background-image: url("../../../images/Route-line/Krasnoyarsk-title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 88.3%;
+    top: 33.1%;
+    height: 3.9%;
+    width: 9.1%;
+    z-index: 1;
+}

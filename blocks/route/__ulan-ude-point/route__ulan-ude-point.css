@@ -1,0 +1,12 @@
+.route__ulan-ude-point {
+    background-image: url("../../../images/Route-line/Ulan-Ude-point.svg"),
+        url("../../../images/Route-line/Ulan-Ude-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    top: 53.5%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

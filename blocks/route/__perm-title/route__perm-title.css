@@ -1,0 +1,11 @@
+.route__perm-title {
+    background-image: url("../../../images/Route-line/Perm-title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 57%;
+    top: 43%;
+    height: 3.8%;
+    width: 4.5%;
+    z-index: 1;
+}

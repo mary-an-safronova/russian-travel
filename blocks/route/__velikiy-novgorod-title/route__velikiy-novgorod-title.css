@@ -1,0 +1,11 @@
+.route__velikiy-novgorod-title {
+    background-image: url("../../../images/Route-line/Velikiy-novgorod-title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 5.5%;
+    top: -17.1%;
+    height: 11.9%;
+    width: 7.4%;
+    z-index: 1;
+}

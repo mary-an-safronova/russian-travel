@@ -1,0 +1,12 @@
+.route__glazov-point {
+    background-image: url("../../../images/Route-line/Glazov-point.svg"),
+        url("../../../images/Route-line/Glazov-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 55.3%;
+    top: 76.8%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

@@ -1,0 +1,12 @@
+.route__tver-point {
+    background-image: url("../../../images/Route-line/Tver-point.svg"),
+        url("../../../images/Route-line/Tver-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 21.4%;
+    top: 61.9%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

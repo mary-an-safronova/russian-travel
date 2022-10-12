@@ -1,0 +1,12 @@
+.route__velikiy-novgorod-point {
+    background-image: url("../../../images/Route-line/Velikiy-novgorod-point.svg"),
+        url("../../../images/Route-line/Velikiy-novgorod-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 9.2%;
+    top: -1%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 2;
+}

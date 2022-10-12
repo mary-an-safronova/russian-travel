@@ -1,0 +1,33 @@
+.lead__title {
+    max-width: calc(100% - (280px - 148px)*2);
+    font-size: 96px;
+    line-height: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+    .lead__title {
+        max-width: calc(100% - 152px*2);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__title {
+        max-width: calc(100% - 24px*2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__title {
+        max-width: calc(100% - 20px*2);
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__title {
+        max-width: calc(100% - 16px*2);
+        font-size: 40px;
+        line-height: 44px;
+    }
+}

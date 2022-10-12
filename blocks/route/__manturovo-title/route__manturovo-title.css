@@ -1,0 +1,11 @@
+.route__manturovo-title {
+    background-image: url("../../../images/Route-line/Manturovo-title.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 36%;
+    top: 42%;
+    height: 3.9%;
+    width: 8.5%;
+    z-index: 1;
+}

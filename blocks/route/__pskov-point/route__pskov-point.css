@@ -1,0 +1,12 @@
+.route__pskov-point {
+    background-image: url("../../../images/Route-line/Pskov-point.svg"),
+        url("../../../images/Route-line/Pskov-point-inside.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: -0.2%;
+    top: 40.6%;
+    height: 3.6%;
+    width: 0.8%;
+    z-index: 1;
+}

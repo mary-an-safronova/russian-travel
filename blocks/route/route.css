@@ -1,0 +1,11 @@
+.route {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    left: 4.2%;
+    top: 20.8%;
+    z-index: 1;
+    height: 36.5%;
+    width: 90%;
+}
