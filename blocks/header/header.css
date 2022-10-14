@@ -6,6 +6,12 @@
     margin: auto;
 }
 
+@media screen and (min-width: 1280px) {
+    .header {
+        width: 1184px;
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .header {
         width: calc(100% - 24px*2);

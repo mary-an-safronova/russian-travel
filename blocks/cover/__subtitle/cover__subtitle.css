@@ -1,27 +1,41 @@
 .cover__subtitle {
     position: relative;
     z-index: 1;
-    font-size: 18px;
-    line-height: 22px;
-    max-width: calc(100% - 412px*2);
+    font-size: clamp(1.125em, 1.41vw, 1.41vw);
+    /* min 18px */
+    line-height: 1.22em;
+    /* 22px */
+    max-width: 30.41%;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover__subtitle {
+        width: 360px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 1279px) {
     .cover__subtitle {
-        max-width: calc(100% - 332px*2);
+        max-width: 35.16%;
+        font-size: clamp(1.125em, 1.76vw, 1.41vw);
     }
 }
 
 @media screen and (max-width: 1023px) {
     .cover__subtitle {
-        max-width: calc(100% - 204px*2);
+        max-width: 46.9%;
+        font-size: clamp(1.125em, 2.34vw, 1.76vw);
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover__subtitle {
-        max-width: calc(100% - 16px*2);
-        font-size: 14px;
-        line-height: 16px;
+        max-width: 90%;
+        font-size: clamp(0.875em, 4.375vw, 2.34vw);
+        /* min 14px */
+        line-height: 1.14em;
+        /* 16px */
     }
 }

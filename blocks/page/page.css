@@ -4,11 +4,17 @@
     width: 100%;
     background-color: #2A2C2F;
     color: #FFFFFF;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+}
+
+@media screen and (min-width: 1280px) {
+    .page {
+        width: 1280px;
+    }
 }

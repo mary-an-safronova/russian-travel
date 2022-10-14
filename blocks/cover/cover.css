@@ -3,6 +3,15 @@
   width: calc(100% - 48px*2);
   margin: auto;
   box-sizing: border-box;
+  display: grid;
+  grid-template: "cover" 1fr / 1fr;
+  aspect-ratio: 1 / 0.625;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 1184;
+  }
 }
 
 @media screen and (max-width: 1279px) {

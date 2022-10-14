@@ -2,21 +2,31 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 20px;
+    line-height: 1.7em;
+    /* 20px */
     letter-spacing: 2px;
     margin: 0 0 12px 0;
 }
 
+@media screen and (max-width: 1279px) {
+    .place__url-heading {
+        font-size: clamp(0.75em, 1.17vw, 0.94vw);
+        /* 12px */
+    }
+}
+
 @media screen and (max-width: 1023px) {
     .place__url-heading {
-        line-height: 12px;
+        line-height: 1em;
+        /* 12px */
     }
 }
 
 @media screen and (max-width: 767px) {
     .place__url-heading {
         margin-left: 16px;
-        line-height: 12px;
+        line-height: 1em;
+        /* 12px */
         margin-top: 32px;
     }
 }

@@ -1,12 +1,21 @@
 .lead {
-    width: calc(100% - 148px*2);
+    width: 984px;
     box-sizing: border-box;
-    margin: 48px auto 0;
+    margin: 56px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        width: 984px;
+    }
 }
 
 @media screen and (max-width: 1279px) {
     .lead {
-        width: calc(100% - 48px*2);
+        width: 90.62vw;
     }
 }
 

@@ -2,7 +2,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
+    line-height: 1.17em;
+    /* 28px */
     margin-right: 18px;
 }
 
@@ -19,9 +20,29 @@
     transition: opacity 0.5s;
 }
 
+@media screen and (min-width: 1280px) {
+    .header__lang-link {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    .header__lang-link {
+        font-size: clamp(1.5em, 2.343vw, 1.875vw);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__lang-link {
+        font-size: clamp(1.5em, 3.125vw, 2.343vw);
+    }
+}
+
 @media screen and (max-width: 767px) {
     .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
+        font-size: clamp(1.125em, 5.625vw, 3.125vw);
+        /* min 18px */
+        line-height: 1.11em;
+        /* 20px */
     }
 }
