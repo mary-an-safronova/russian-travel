@@ -1,25 +1,25 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    width: calc(100% - 48px*2);
-    box-sizing: border-box;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 48px*2);
+  box-sizing: border-box;
+  margin: auto;
 }
 
 @media screen and (min-width: 1280px) {
-    .header {
-        width: 1184px;
-    }
+  .header {
+    width: 1184px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .header {
-        width: calc(100% - 24px*2);
-    }
+  .header {
+    width: calc(100% - 24px*2);
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .header {
-        width: calc(100% - 16px*2);
-    }
+  .header {
+    width: calc(100% - 16px*2);
+  }
 }

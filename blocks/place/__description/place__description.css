@@ -1,28 +1,24 @@
 .place__description {
-    min-width: 35.6%;
-    box-sizing: border-box;
-}
-
-@media screen and (min-width: 1280px) {
-    .place__description {
-        width: 484px;
-    }
+  box-sizing: border-box;
+  min-width: 35.6%;
+  max-width: 484px;
+  width: 100%;
 }
 
 @media screen and (max-width: 1279px) {
-    .place__description {
-        min-width: 44.5%;
-    }
+  .place__description {
+    min-width: 44.5%;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__description {
-        min-width: 45.8%;
-    }
+  .place__description {
+    min-width: 45.8%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__description {
-        width: calc(100% - 16*2);
-    }
+  .place__description {
+    width: calc(100% - 16*2);
+  }
 }

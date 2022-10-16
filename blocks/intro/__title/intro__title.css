@@ -1,24 +1,24 @@
 .intro__title {
-    margin: 0;
-    font-style: normal;
-    font-weight: 900;
-    font-size: clamp(3.375em, 4.22vw, 4.22vw);
-    /* min 54px */
-    line-height: 1.07em;
-    /* 58px */
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: clamp(3.375em, 4.22vw, 4.22vw);
+  /* min 54px */
+  line-height: 1.07em;
+  /* 58px */
 }
 
 @media screen and (min-width: 1280px) {
-    .intro__title {
-        font-size: 54px;
-    }
+  .intro__title {
+    font-size: 54px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .intro__title {
-        font-size: clamp(2em, 10vw, 6.9vw);
-        /* min 32px */
-        line-height: 1.09em;
-        /* 35px */
-    }
+  .intro__title {
+    font-size: clamp(2em, 10vw, 6.9vw);
+    /* min 32px */
+    line-height: 1.09em;
+    /* 35px */
+  }
 }

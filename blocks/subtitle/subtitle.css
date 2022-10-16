@@ -1,12 +1,12 @@
 .subtitle {
-    font-style: normal;
-    font-weight: 400;
-    text-align: center;
-    margin: 32px auto 0;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  margin: 32px auto 0;
 }
 
 @media screen and (max-width: 320px) {
-    .subtitle {
-        margin: 16px auto 0;
-    }
+  .subtitle {
+    margin: 16px auto 0;
+  }
 }

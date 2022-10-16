@@ -1,32 +1,32 @@
 .intro {
-    width: 53.9vw;
-    box-sizing: border-box;
-    margin: 92px 0 92px 148px;
+  width: 53.9vw;
+  box-sizing: border-box;
+  margin: 92px 0 92px 148px;
 }
 
 @media screen and (min-width: 1280px) {
-    .intro {
-        width: 690px;
-    }
+  .intro {
+    width: 690px;
+  }
 }
 
 @media screen and (max-width: 1279px) {
-    .intro {
-        width: 67.38vw;
-        margin: 92px 0 92px 48px;
-    }
+  .intro {
+    width: 67.38vw;
+    margin: 92px 0 92px 48px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .intro {
-        width: 93.75vw;
-        margin: 88px auto;
-    }
+  .intro {
+    width: 93.75vw;
+    margin: 88px auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .intro {
-        width: 90vw;
-        margin: 64px auto;
-    }
+  .intro {
+    width: 90vw;
+    margin: 64px auto;
+  }
 }

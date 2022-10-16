@@ -1,23 +1,23 @@
 .copyright {
-    font-style: normal;
-    font-weight: 400;
-    font-size: clamp(0.875em, 1.09vw, 1.09vw);
-    /* 14px */
-    line-height: 1.14em;
-    /* 16px */
-    margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: clamp(0.875em, 1.09vw, 1.09vw);
+  /* 14px */
+  line-height: 1.14em;
+  /* 16px */
+  margin: 0;
 }
 
 @media screen and (min-width: 1280px) {
-    .copyright {
-        font-size: 14px;
-    }
+  .copyright {
+    font-size: 14px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .copyright {
-        line-height: 1em;
-        /* 14px */
-        margin-top: 48px;
-    }
+  .copyright {
+    line-height: 1em;
+    /* 14px */
+    margin-top: 48px;
+  }
 }

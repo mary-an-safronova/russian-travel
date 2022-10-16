@@ -1,37 +1,35 @@
 .place__title {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 1.06em;
-    /* 76px */
-    justify-self: start;
-    align-self: end;
-    margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06em;
+  /* 76px */
+  justify-self: start;
+  align-self: end;
+  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
-    .place__title {
-        font-size: clamp(4.5em, 7.03vw, 5.625vw);
-        /* 72px */
-    }
+  .place__title {
+    font-size: clamp(4.5em, 7.03vw, 5.625vw);
+    /* 72px */
+  }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__title {
-        font-size: clamp(2.625em, 5.47vw, 7.03vw);
-        /* 42px */
-        line-height: 1.1em;
-        /* 46px */
-    }
+  .place__title {
+    font-size: clamp(2.625em, 5.47vw, 7.03vw);
+    /* 42px */
+    line-height: 1.1em;
+    /* 46px */
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .place__title {
-        margin-left: 16px;
-        margin-right: 16px;
-        font-size: clamp(2em, 0.1vw, 4.1vw);
-        /* 32px */
-        line-height: 1.1em;
-        /* 35px */
-    }
+  .place__title {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: clamp(2em, 0.1vw, 4.1vw);
+    /* 32px */
+  }
 }
