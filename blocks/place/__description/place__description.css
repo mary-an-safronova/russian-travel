@@ -19,6 +19,6 @@
 
 @media screen and (max-width: 767px) {
   .place__description {
-    width: calc(100% - 16*2);
+    width: calc(100% - 16px*2);
   }
 }

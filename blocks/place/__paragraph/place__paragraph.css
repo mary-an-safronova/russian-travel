@@ -6,6 +6,7 @@
   /* 29px */
   align-self: start;
   margin: 0 0 27px;
+  width: 100%;
 }
 
 .place__paragraph:last-of-type {
@@ -33,6 +34,6 @@
   .place__paragraph {
     font-size: clamp(1em, 5vw, 2.09vw);
     /* 16px */
-    margin: 32px 16px 25px;
+    margin: 0 16px 25px;
   }
 }
